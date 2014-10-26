@@ -1,6 +1,6 @@
 <?php
 
-function wpt_theme_scriptswpt_theme_styles() {
+function wpt_theme_styles() {
 	wp_enqueue_style('foundation_css', get_template_directory_uri() . '/css/foundations.css');
 	wp_enqueue_style('normalize_css', get_template_directory_uri() . '/css/normalize.css');
 	wp_enqueue_style('google_font_asap_css', '//fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic');
