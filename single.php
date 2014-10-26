@@ -36,7 +36,7 @@
 
 						<?php endwhile; else : ?>
 
-							<p><?php _e( 'Sorry, no posts found.', 'treehouse-portfolio' ); ?></p>
+							<p><?php _e( 'Sorry, no posts found.', 'tth-portfolio' ); ?></p>
 
 						<?php endif; ?>
 
