@@ -18,11 +18,8 @@
 </section>
 
 <?php
-$num_posts = ( is_front_page() ) ? 4 : -1;
-
 $args = array(
-	'post_type' => 'portfolio',
-	'posts_per_page' => $num_posts
+	'post_type' => 'portfolio'
 );
 $query = new WP_Query( $args );
 
